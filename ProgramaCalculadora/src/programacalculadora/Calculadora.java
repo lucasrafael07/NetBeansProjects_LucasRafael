@@ -36,9 +36,9 @@ public class Calculadora {
 
     public void expoente2(double numero1, double numero2) {
 // A variável ou notação resultado armazenará ou receberá a porcentagem dos conteúdos de numero1 e numero2
-
-       for (int i = 1; i <= numero2; i++) {
-            double resp = numero1 * i;
+        double resp = 1;
+        for (int i = 0; i < numero2; i++) {
+            resp = numero1 * resp;
             this.resultado = resp;
 
             // Usa a função Expoente
