@@ -6,7 +6,7 @@ package programaalienigenaoo;
 public class Questionario {
 
     Identidade a = new Identidade("Nome indefinido", "Raça Indefinida", "Planeta Indefinido", 0, 0);
-    Identidade2 b = new Identidade2("Nome indefinido", "Raça Indefinida", "Planeta Indefinido", 0, 0);
+    Identidade b = new Identidade("Nome indefinido", "Raça Indefinida", "Planeta Indefinido", 0, 0);
     ES es = new ES();
 
     public Object imprimir() {
