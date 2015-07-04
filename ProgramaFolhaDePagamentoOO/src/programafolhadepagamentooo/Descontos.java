@@ -52,7 +52,8 @@ public class Descontos {
 
     @Override
     public String toString() {
-        return "Descontos{" + "sb=" + sb + ", vt=" + vt + ", inss=" + inss + ", sl=" + sl + ", vl=" + vl + ", prodhoras=" + prodhoras + '}';
+        return "Descontos{" + "Salário Base = " + sb + ", Vale Transporte = " + vt + ", INSS = " + inss + ", Salário Líquido = " + sl +"\n"+
+                ", Vale Trasnporte = " + vl + ", Valor Hora Trabalhada = " + prodhoras + '}';
     }
 
 }
